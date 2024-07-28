@@ -1,5 +1,7 @@
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 import './App.css'
+import { Dashboard } from './pages/dashboard';
+import { Auth } from './pages/auth';
 
 function App() {
 
@@ -13,8 +15,8 @@ function App() {
           </SignedIn>
         </div> */}
         <Routes>
-          <Route path="/" element={<h1>Dashboard </h1>}/>
-          <Route path="/auth" element={<h1>Sign In </h1>} />
+          <Route path="/" element={<Dashboard/>}/>
+          <Route path="/auth" element={<Auth/>} />
         </Routes>
       </div>
     </Router>
