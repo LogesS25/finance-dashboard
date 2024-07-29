@@ -1,6 +1,6 @@
 # Finance Application
 
-Finance Dashboard[alt text](image.png)
+![Finance Dashboard]![alt text](image.png)
 
 I developed a finance application using Node.js for the backend. The application includes several features for both admins and users, and it showcases my skills in CRUD operations.
 
