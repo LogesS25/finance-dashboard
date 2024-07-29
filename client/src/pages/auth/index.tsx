@@ -10,12 +10,13 @@ import {
     return (
       <div className="sign-in-container">
         <SignedOut>
-          <h1> Welcome to NodeJS Dashboard</h1>
+         <Navigate to="/" />  
+        <h1> Welcome to NodeJS Dashboard</h1>
           <SignUpButton mode="modal" />
           <SignInButton mode="modal" />
         </SignedOut>
         <SignedIn>
-          <Navigate to="/dashboard" />
+          <Navigate to="/dashboard" />  
         </SignedIn>
       </div>
     );
