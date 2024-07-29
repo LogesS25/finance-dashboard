@@ -1,6 +1,6 @@
 # Finance Application
 
-![Finance Dashboard](https://example.com/finance-dashboard-image.png)
+![Finance Dashboard]![alt text](image.png)
 
 I developed a finance application using Node.js for the backend. The application includes several features for both admins and users, and it showcases my skills in CRUD operations.
 
@@ -33,9 +33,7 @@ This project serves as a prototype to demonstrate my skills in building full-sta
 
 [Finance Dashboard](https://finance-dashboard-client-theta.vercel.app/)
 
-## GitHub Link
 
-[GitHub Repository](https://github.com/LogesS25/finance-dashboard/)
 
 ## How to Access
 
@@ -43,17 +41,11 @@ Users can just login/sign up and start adding their personal finance details to 
 
 ## Screenshots
 
-![Dashboard](https://example.com/dashboard-screenshot.png)
-![Login](https://example.com/login-screenshot.png)
+![Dashboard]![alt text](image-1.png)
+![Login]![alt text](image-2.png)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or inquiries, please contact me at [email@example.com](mailto:email@example.com).
+For any questions or inquiries, please contact me at [sivalog25@gmail.com](mailto:sivalog25@gmail.com).
 
----
-
-Happy tracking your finances! 💰📊
