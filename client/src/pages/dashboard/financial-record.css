@@ -18,7 +18,7 @@
   
   /* Common class for all buttons */
   .button {
-    background-color: #3498db;
+    background-color: #002b48;
     color: #ffffff;
     border: none;
     padding: 8px 15px;
@@ -29,10 +29,10 @@
   }
   
   .button:hover {
-    background-color: #2980b9;
+    background-color: #002b48;
   }
   .button-delete {
-    background-color: #343cdb;
+    background-color: #002b48;
     color: #ffffff;
     border: none;
     padding: 8px 15px;
@@ -43,7 +43,7 @@
   }
   
   .button-delete:hover {
-    background-color: #343cdb;
+    background-color: #002b48;
   }
   
   /* Common class for all input fields and selects */
@@ -55,7 +55,7 @@
     background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 5px;
-    color: #3498db;
+    color: #002b48;
   }
   
   /* Labels for better readability */
@@ -85,7 +85,7 @@
   }
   
   .table th {
-    background-color: #3498db; /* Darker blue header background */
+    background-color: #002b48; /* Darker blue header background */
     color: white;
     font-size: 16px;
   }

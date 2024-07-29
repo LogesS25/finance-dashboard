@@ -1,12 +1,14 @@
 import express, { Express } from "express";
 import mongoose from "mongoose";
 import financialRecordRouter from "./routes/financial-records";
-
+import cors from "cors";
 
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
+app.use(cors());
+
 
 const mongoURI: string = "mongodb+srv://sivalog25:QgiV5ZZ0ypGibgHg@financedashboard.d4zd5hg.mongodb.net/?retryWrites=true&w=majority&appName=financeDashboard";
 

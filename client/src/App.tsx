@@ -2,6 +2,7 @@ import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 import './App.css'
 import { Dashboard } from './pages/dashboard';
 import { Auth } from './pages/auth';
+import { FinancialRecordsProvider } from './context/financial-record-context';
 
 function App() {
 
@@ -15,7 +16,10 @@ function App() {
           </SignedIn>
         </div> */}
         <Routes>
-          <Route path="/" element={<Dashboard/>}/>
+          <Route path="/" element={
+            <FinancialRecordsProvider>
+                <Dashboard/>
+            </FinancialRecordsProvider>}/>
           <Route path="/auth" element={<Auth/>} />
         </Routes>
       </div>
